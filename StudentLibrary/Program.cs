@@ -11,5 +11,11 @@ class Program
         Console.WriteLine("Current Students: ");
         student.DisplayInfo();
         student1.DisplayInfo();
+
+        Console.WriteLine("Next Year: ");
+        student.getOlder();
+        student1.getOlder();
+        student.DisplayInfo();
+        student1.DisplayInfo();
     }
 }
